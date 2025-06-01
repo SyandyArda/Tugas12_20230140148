@@ -1,0 +1,70 @@
+/* Atur font dan background */
+body {
+  font-family: Arial, sans-serif;
+  background: #e6f0ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container form */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #333;
+}
+
+/* Input, textarea, select styling */
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a44e0;
+}
